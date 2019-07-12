@@ -1,0 +1,10 @@
+TERMUX_PKG_HOMEPAGE=https://www.midori-browser.org/
+TERMUX_PKG_DESCRIPTION="Lightweight web browser"
+TERMUX_PKG_LICENSE="LGPL"
+TERMUX_PKG_MAINTAINER="Tristan Ross <spaceboyross@yandex.com>"
+TERMUX_PKG_VERSION=8.0
+TERMUX_PKG_REVISION=1
+TERMUX_PKG_SRCURL="https://github.com/midori-browser/core/releases/download/v$TERMUX_PKG_VERSION/midori-v$TERMUX_PKG_VERSION.tar.gz"
+TERMUX_PKG_SHA256=559ec7cc8903a423958f660f6ffb29f30e9e357b85c19ecd296e8911dc92be3c
+TERMUX_PKG_DEPENDS="aria2, gcr, gobject-introspection-runtime, libpeas, libxss, webkit2gtk, zeitgeist"
+TERMUX_PKG_BUILD_IN_SRC=true
